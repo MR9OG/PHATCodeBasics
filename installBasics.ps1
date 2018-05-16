@@ -24,3 +24,5 @@ write-host "installing azure-cli"
 scoop install azure-cli
 write-host "installing azure powershell module"
 scoop install azure-ps
+write-host "isntalling choco"
+iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
